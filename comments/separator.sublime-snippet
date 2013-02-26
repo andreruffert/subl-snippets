@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+// -----------------------------------------------------------------------------
+$1
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>c-s</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.css, source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Seperator comment</description>
+</snippet>
