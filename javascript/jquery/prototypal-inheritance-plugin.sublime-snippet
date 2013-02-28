@@ -1,0 +1,62 @@
+<snippet>
+    <content><![CDATA[
+
+// Usage:
+// With myObject, we could now essentially do this:
+// $.plugin('myobj', myObject);
+
+// and at this point we could do the following
+// $('#elem').myobj({name: "John"});
+// var inst = $('#elem').data('myobj');
+// inst.myMethod('I am a method');
+
+(function($) {
+
+    'use strict';
+
+    var myObject = {
+
+        // Default options
+        options: {
+            key: 'value'
+        },
+
+        init: function(elem, options) {
+            // Mix in the passed-in options with the default options
+            this.options = $.extend( {}, this.options, options );
+
+            // Save the element reference, both as a jQuery
+            // reference and a normal reference
+            this.elem  = elem;
+            this.$elem = $(elem);
+
+            // return this so that we can chain and use the bridge with less code.
+            return this;
+        },
+
+        myMethod: function() {
+            // You have direct access to the associated and cached
+            // jQuery element
+            // this.$elem.append('<p>'+msg+'</p>');
+        }
+    };
+
+    // Make it a plugin
+    $.fn.myPlugin = function (options) {
+        return this.each(function () {
+            var myPlugin = $.extend({}, myObject);
+            myPlugin.init(this, options);
+        });
+    };
+
+}(jQuery));
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>jq-plugin</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+    <!-- Optional: Description to show in the menu -->
+    <description>
+        jQuery prototypal inheritance plugin boilerplate
+    </description>
+</snippet>
