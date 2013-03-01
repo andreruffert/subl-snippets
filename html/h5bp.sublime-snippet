@@ -46,5 +46,5 @@
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>text.html</scope> -->
     <!-- Optional: Description to show in the menu -->
-    <description></description>
+    <description>Create h5bp document</description>
 </snippet>
