@@ -17,4 +17,5 @@ insert_final_newline = true
     <tabTrigger>editorconfig</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
+    <description>editorconfig boilerplate</description>
 </snippet>
