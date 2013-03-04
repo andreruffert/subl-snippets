@@ -43,7 +43,7 @@
     </tr>
     <tr>
         <td>h5bp</td>
-        <td>Create h5bp document</td>
+        <td>Create blank h5bp document</td>
     </tr>
 </table>
 
