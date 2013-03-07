@@ -85,4 +85,8 @@
         <td>editorconfig</td>
         <td>editorconfig boilerplate</td>
     </tr>
+    <tr>
+        <td>packagejson</td>
+        <td>package.json boilerplate</td>
+    </tr>
 </table>
