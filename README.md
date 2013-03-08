@@ -1,5 +1,23 @@
 # Sublime Text 2 Snippets
 
+A collection of [Sublime Text 2](http://www.sublimetext.com/) snippets.
+
+## Installation
+
+These snippets can be installed by simply checkout the source code into Sublime Text's packages directory. The location is system specific:
+
+### For OSX
+
+    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+    $ git clone https://github.com/andreruffert/subl-snippets.git -b master
+
+### For Windows
+
+    $ cd %APPDATA%/Sublime Text 2/Packages/User
+    $ git clone https://github.com/andreruffert/subl-snippets.git -b master
+
+## Snippets and Bindings
+
 ### Comments
 <table>
     <tr>
