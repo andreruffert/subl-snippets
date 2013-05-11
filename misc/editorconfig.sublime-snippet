@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
 # editorconfig.org
+
+# top-most EditorConfig file
 root = true
 
 [*]
