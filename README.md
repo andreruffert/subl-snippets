@@ -1,6 +1,6 @@
 # Sublime Text 2 Snippets
 
-A collection of [Sublime Text 2](http://www.sublimetext.com/) snippets to simplify the development workflow.
+A collection of my [Sublime Text 2](http://www.sublimetext.com/) snippets to simplify the development workflow.
 
 ## Installation
 
