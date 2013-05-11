@@ -1,4 +1,4 @@
-# Sublime Text 2 Snippets
+# Some Sublime Text 2 Snippets
 
 A collection of my [Sublime Text 2](http://www.sublimetext.com/) snippets to simplify the development workflow.
 
