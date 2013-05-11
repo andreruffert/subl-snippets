@@ -23,18 +23,12 @@ These snippets can be installed by simply checkout the source code into Sublime 
     <tr>
         <th>Tab trigger</th>
         <th>Description</th>
-        <th></th>
     </tr>
     <tr>
         <td>c-gb</td>
         <td>
             Group comment block<br>
             For multi-line explanations and documentation
-        </td>
-        <td>
-            /**
-             * comment
-             */
         </td>
     </tr>
     <tr>
